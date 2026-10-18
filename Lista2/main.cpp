@@ -46,18 +46,19 @@ void zad5()
 {
     // cout << format('\n');
     // sprawdzic czemu nie dziala
+    cout << "var: " << format("{:X}", '\n') << endl;
+    // format jest obsługiwany w C++ 20+
 }
 
-// dokonczyc
 void zad6()
 {
     string input;
-    cout << "Podaj string " << endl;
+    cout << "Podaj string: " << endl;
     cin >> input;
-    // for (auto char_: input)
-    // {
-    //     cout << hex << (int) char_;
-    // }
+    for (auto char_: input)
+    {
+        cout << hex << (int) char_;
+    }
 }
 
 int main()
