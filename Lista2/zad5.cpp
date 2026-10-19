@@ -16,6 +16,9 @@ void zad()
     // {:x}
     // {:X}
     // {:02X}
+
+    // format("{0:X} {1} {0}", imie, nazwisko)
+    //                         0     1
 }
 
 int main()
