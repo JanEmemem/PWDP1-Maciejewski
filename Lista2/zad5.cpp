@@ -12,6 +12,10 @@ void zad()
     // sprawdzic czemu nie dziala
     cout << "var: " << format("{:X}", '\n') << endl;
     // format jest obsługiwany w C++ 20+
+
+    // {:x}
+    // {:X}
+    // {:02X}
 }
 
 int main()
