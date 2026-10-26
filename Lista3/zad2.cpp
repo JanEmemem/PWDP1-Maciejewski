@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int N = 100000000;
+    int N = 100'000'000;
     double s = 0;
     cout << "Wynik: " << endl;
 
