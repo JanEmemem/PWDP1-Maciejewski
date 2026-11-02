@@ -15,7 +15,7 @@ add_executable(zad1
 add_executable(zad2
     zad2.cpp
 )
-# add_executable(zad3
-#     zad3.cpp
-# )
+add_executable(zad3
+    zad3.cpp
+)
 include(GNUInstallDirs)
