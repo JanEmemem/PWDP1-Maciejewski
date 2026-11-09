@@ -93,23 +93,23 @@ int main()
     if (header != "P2")
         return -1;
 
-    ofstream filrname_("file2.txt");
+    ofstream filename_("file2.txt");
 
     int value;
 
     for (int i = 0; i < width * height; i++)
     {
         filename >> value;
-        filrname_ << GetSymbol(value, maxValue);
+        filename_ << GetSymbol(value, maxValue);
 
         if ((i + 1) % width == 0)
         {
-            filrname_ << endl;
+            filename_ << endl;
         }
     }
 
     filename.close();
-    filrname_.close();
+    filename_.close();
 
     cout << "Done" << endl;
 
